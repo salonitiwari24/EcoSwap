@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+# 🌍 EcoSwap  
+*Swap smarter, live greener.*  
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/99042fc9-4125-4ea4-80d0-bdf1743576b9
+## 🚀 Overview  
+EcoSwap is a sustainable second-hand marketplace that empowers people to *buy and sell pre-owned goods* with ease.  
+By extending the lifecycle of products, EcoSwap reduces waste, promotes *responsible consumption, and fosters a **community of eco-conscious users*.  
 
-## How can I edit this code?
+EcoSwap aims to become the *go-to platform for sustainable exchange* — where every swap makes an impact.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🎯 Vision  
+- Build a trusted, intuitive marketplace for second-hand goods.  
+- Encourage a *circular economy* by giving products a second life.  
+- Connect buyers and sellers in a *transparent and convenient* way.  
+- Inspire a global community to make *eco-conscious choices*.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/99042fc9-4125-4ea4-80d0-bdf1743576b9) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌱 Mission  
+Our mission is to create a *desktop + mobile application* that enables users to:  
+- Easily swap, buy, and sell pre-loved items.  
+- Enjoy *secure user authentication* and profile management.  
+- Access essential features like product listings, search, and cart.  
+- Promote a culture of reuse through seamless technology.  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠 Problem Statement  
+Develop a foundational prototype of EcoSwap with the following:  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- *User Authentication*: Secure registration & login (email + password).  
+- *Profile Dashboard*: Username creation, profile editing.  
+- *Product Listings (CRUD)*: Add, edit, view, and delete listings with:  
+  - Title  
+  - Description  
+  - Category (dropdown)  
+  - Price  
+  - Image placeholder  
+- *Product Browsing*:  
+  - Product feed with title, price, image  
+  - Category filters  
+  - Keyword search  
+- *Product Detail View*: Full product information page.  
+- *Cart*: Add and view products before purchase.  
+- *Previous Purchases*: List of past purchased/swapped items.  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Features  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 👤 User Features  
+- Register/login with secure authentication  
+- Create and manage a profile  
+- Dashboard with editable fields  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🛍 Marketplace Features  
+- Add, edit, delete product listings  
+- Browse listings with search + filters  
+- View detailed product pages  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🛒 Cart & Purchases  
+- Add items to cart  
+- Manage and review items in cart  
+- Access a record of previous purchases/swaps  
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📱 Wireframes  
 
-**Use GitHub Codespaces**
+### 🔑 Login / Sign Up  
+- App logo, email, password, login, sign-up link  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🛍 Product Feed  
+- Header with logo/title  
+- Search bar + category filters  
+- Product cards (image, title, price)  
+- Prominent “+” button for new listing  
 
-## What technologies are used for this project?
+### ➕ Add New Product  
+- Title, Category, Description, Price  
+- Image placeholder upload button  
+- Submit button  
 
-This project is built with:
+### 📂 My Listings  
+- User’s products with Edit + Delete buttons  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 📄 Product Detail  
+- Large image placeholder  
+- Title, price, category, description  
 
-## How can I deploy this project?
+### 👤 User Dashboard  
+- User image + editable fields  
 
-Simply open [Lovable](https://lovable.dev/projects/99042fc9-4125-4ea4-80d0-bdf1743576b9) and click on Share -> Publish.
+### 🛒 Cart  
+- Product cards showing selected items  
 
-## Can I connect a custom domain to my Lovable project?
+### 📦 Previous Purchases  
+- List of past purchased/swapped products  
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🛠 Tech Stack  
+- *Frontend:* React.js / Next.js, Tailwind CSS  
+- *Backend:* Node.js, Express  
+- *Database:* MySQL  
+- *Authentication:* JWT / OAuth  
+- *Hosting:* Vercel / Netlify  
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+
+## 🤝 Contributing  
+We welcome contributions!  
+1. Fork the repo  
+2. Create a feature branch (git checkout -b feature-name)  
+3. Commit your changes (git commit -m "Add feature")  
+4. Push to branch (git push origin feature-name)  
+5. Open a Pull Request  
+
+---
+
+## 📜 License  
+This project is licensed under the *MIT License*.  
+
+---
